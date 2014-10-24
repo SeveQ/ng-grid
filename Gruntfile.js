@@ -456,13 +456,13 @@ module.exports = function(grunt) {
           '//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js',
           '//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-touch.js',
           '//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-animate.js',
-          'bower_components/csv-js/csv.js',
-          'bower_components/pdfmake/build/pdfmake.js',
-          'bower_components/pdfmake/build/vfs_fonts.js'
+          'public/lib/csv-js/csv.js',
+          'public/lib/pdfmake/build/pdfmake.js',
+          'public/lib/pdfmake/build/vfs_fonts.js'
         ],
         hiddenScripts: [
           '//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-animate.js',
-          'bower_components/google-code-prettify/src/prettify.js',
+          'public/lib/google-code-prettify/src/prettify.js',
           'node_modules/marked/lib/marked.js'
         ],
         httpScripts: [
